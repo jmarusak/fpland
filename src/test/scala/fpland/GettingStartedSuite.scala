@@ -5,4 +5,12 @@ class GettingStartedSuite extends FunSuite {
     assertEquals(MyModule.abs(-5), 5)
     assertEquals(MyModule.abs(5), 5)
   }
+  
+  test("MyModule.factorial") {
+    assertEquals(MyModule.factorial(4), 24)
+  }
+
+  test("MyModule.fibonacci") {
+    assertEquals(MyModule.fibonacci(4), 3)
+  }
 }
